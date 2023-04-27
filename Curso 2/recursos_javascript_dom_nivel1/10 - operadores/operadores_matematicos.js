@@ -16,7 +16,7 @@ console.log(valor1 * valor2)
 console.log(valor1 / valor2)
 
 // módulos
-console.log(valor1 % valor2)
+console.log(valor1 % valor2) //operador que dá o valor de resto em uma divisão
 
 // guardar o resultado numa nova variável
 let resultado = valor1 + valor2
