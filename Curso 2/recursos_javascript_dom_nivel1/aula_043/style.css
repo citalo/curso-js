@@ -1,0 +1,9 @@
+input, label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}

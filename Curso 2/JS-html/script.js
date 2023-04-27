@@ -1,0 +1,1 @@
+console.log("Ficheiro externo")
