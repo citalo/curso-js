@@ -1,13 +1,15 @@
 // OPERADOR TERNÁRIO
 
+// operador ternário: ? -> (verdade) + execução : -> (falso) + execução
+
 /*
 var resultado = (condição) ? valor1 : valor2
 */
 
-// ---------------------
-// let enviar_email = true
-// let frase = enviar_email ? "Enviar" : "Não enviar"
-// console.log(frase)
+//---------------------
+let enviar_email = true
+let frase = enviar_email ? "Enviar" : "Não enviar"
+console.log(frase)
 
 // ---------------------
 // let valor = 10
@@ -20,6 +22,7 @@ var resultado = (condição) ? valor1 : valor2
 // valor == 10 ? console.log('SIM') : console.log('NAO')
 
 // ---------------------
+//Apesar de parecer com uma função condicional, não pode executar como função
 // let valor = 10
 // valor == 10 ? {
 //     console.log("sim 1")
@@ -30,7 +33,7 @@ var resultado = (condição) ? valor1 : valor2
 // }
 
 // ---------------------
-// let valor1 = 5
-// let valor2 = 10
-// let resposta = valor1 == 5 && valor2 == 10 ? 'OK' : 'NOT OK'
-// console.log(resposta)
+let valor1 = 5
+let valor2 = 10
+let resposta = valor1 == 5 && valor2 == 10 ? 'OK' : 'NOT OK'
+console.log(resposta)
