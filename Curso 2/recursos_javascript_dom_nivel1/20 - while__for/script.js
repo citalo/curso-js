@@ -10,11 +10,11 @@
     }
 */
 
-// let valor = 0
-// while(valor < 10){
-//     console.log(valor)
-//     valor++
-// }
+ let valor = 0
+ while(valor < 10){
+     console.log(valor)
+     valor++
+ }
 
 // --------------------------------
 // ciclo DO... WHILE - o primeiro ciclo é sempre executado porque a condição é vista no fim.
