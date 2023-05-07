@@ -69,11 +69,11 @@
 // não estamos a criar um novo objeto. Apenas uma nova referência.
 // ------------------------------------
 
-// let transporte = {
-//     tipo: "automóvel",
-//     ano: 2032,
-//     marca: "audi"
-// }
+let transporte = {
+    tipo: "automóvel",
+     ano: 2032,
+     marca: "audi"
+ }
 
 // let novo_transporte = transporte
 // novo_transporte.marca = "mercedes"
@@ -90,7 +90,7 @@
 
 // -------------------------------------
 // outra forma: spread operator
-// let transporte2 = { ...transporte }
-// transporte2.marca = "tesla"
-// console.table(transporte)
-// console.table(transporte2)
+let transporte2 = { ...transporte } // o (...) é o mesmo que busque tudo.
+transporte2.marca = "tesla"
+console.table(transporte)
+console.table(transporte2)

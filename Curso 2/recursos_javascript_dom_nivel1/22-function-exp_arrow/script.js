@@ -47,9 +47,9 @@
 
 // ou ainda mais simples...
 
-// let adicao = (a,b) => a + b
-// console.log(adicao(100,200))
+let adicao = (a,b) => a + b
+console.log(adicao(100,200))
 
-// let escrever = mensagem => console.log(mensagem)
-// escrever("Arrow function!")
-// escrever("JavaScript é fantástico")
+let escrever = mensagem => console.log(mensagem)
+escrever("Arrow function!")
+escrever("JavaScript é fantástico")

@@ -19,19 +19,19 @@
 // -----------------------------
 // exemplo 3
 // -----------------------------
-// let valor = 10 // global scope
-// function escrever(){
-//     let valor = 100 // local scope
-//     console.log("função: " + valor)
-// }
-// escrever()
-// console.log(valor)
+ let valor = 10 // global scope
+ function escrever(){
+     let valor = 100 // local scope
+     console.log("função: " + valor)
+ }
+ escrever()
+ console.log(valor)
 
 // -----------------------------
 // exemplo 4
 // -----------------------------
 // for(let i=1; i < 10; i++){
-//     console.log(i)
+//    console.log(i)
 // }
 
-// console.log(i)
+//console.log(i) //não é possível devido ao escopo 
