@@ -5,12 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            background-color: gray;
+            padding: 2px;
+        }
+    </style>
 </head>
 <body>
     
-    <h1>Texto do título desta página</h1>
+    <h1 
     
-    <button>Alterar texto</button>
+    onclick="alert('botão esquerdo')"
+    oncontextmenu="alert('botão direito')"
+    onmouseenter="console.log('entrou')"
+    onmousemove="console.log('moveu')"
+    onmouseleave="console.log('saiu')"
+
+    
+    >Texto do título desta página</h1>
+    
+    <button onclick="alterar_texto()">Alterar texto</button>
     
     <script src="script.js"></script>
 </body>
