@@ -5,8 +5,8 @@ function alterar_texto(){
 
 // não dá para adicionar mais do que um event handler a cada evento
 let botao = document.querySelector('#botao')
-botao.onclick = funcao1
-botao.onclick = funcao2
+botao.onclick = funcao1 
+botao.onclick = funcao2// a função seguinte sobrepõe a anterior
 
 function funcao1(){
     console.log('clique')
