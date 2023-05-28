@@ -15,5 +15,4 @@ function executar (event){
 }
 
 botao.addEventListener('click',executar)
-
-
+ 
