@@ -43,5 +43,6 @@ console.log(console);*/
 //JS é uma linguagem case-sensitive portanto Cliente é diferente de cliente.
 let nomeCliente = 'João';
 let nomecliente = 'Ana';
-console.log(`${nomeCliente} e ${nomecliente}`);
+//console.log(`${nomeCliente} e ${nomecliente}`);
+console.log(nomeCliente,"e",nomecliente);
 //NÃO UTILIZE VAR, UTILIZE LET.
